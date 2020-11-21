@@ -1,0 +1,99 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Hanlding Updates
+-----------------------------------------------------------------*/
+
+.copipi-r {
+	width: 8rem;
+	text-align: right;
+	position: absolute;
+	right: 15px;
+	bottom: 0px;
+}
+
+.cont-copipi {
+	display: flex;
+	justify-content: center;
+}
+
+.disno {
+  letter-spacing: -3px;
+  font-weight: bolder;
+}
+
+.icon-pres .rounded-circle {
+	height: 4rem;
+	width: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#about .maxiw{
+	min-width: calc(25% - (30px) / 4);
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#about .icon-pres {
+	display: flex;
+	justify-content: center;
+	font-size: 2rem;
+}
+
+#about .icon-pres::before {
+	border: none;
+	position: unset;
+	width: max-content;
+}
+
+#about .icon-pres::after {
+	border: none;
+	position: unset;
+	width: max-content;
+}
+
+#about .lead.text-light {
+	text-align: justify;
+}
+
+#header-nav .nav-link {
+	font-size: 1.3rem;
+}
+
+#skills .badge {
+	font-size: 1.3rem;
+}
+
+#skills svg {
+	vertical-align: bottom;
+	height: 1.3rem;
+	width: 1.3rem;
+}
+
+.ajax-container .have-look {
+	font-size: 3rem;
+}
+
+.g-recaptcha {
+	display: flex;
+	justify-content: center;
+	margin: 2rem 0;
+}
+
+.ajax-container .row.no-gutters.align-items-center {
+	display: flex;
+	justify-content: center;
+}
+
+#about .underli {
+	text-decoration: underline;
+}
+
+.juicy {
+	color: orange;
+}
