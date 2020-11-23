@@ -75,6 +75,10 @@
 	width: 1.3rem;
 }
 
+#skills svg > *{
+	fill: white!important;
+}
+
 .ajax-container .have-look {
 	font-size: 3rem;
 }
