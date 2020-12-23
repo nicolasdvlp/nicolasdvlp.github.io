@@ -83,6 +83,18 @@
 	font-size: 3rem;
 }
 
+.have-look {
+	font-size: 3rem;
+	text-align: center;
+}
+
+.disclaopen {
+	font-size: 0.7rem;
+	text-align: center;
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+}
+
 .g-recaptcha {
 	display: flex;
 	justify-content: center;
@@ -102,3 +114,8 @@
 	color: orange;
 	height: 2rem;
 }
+
+.customseeport {
+	justify-content: center;
+}
+
