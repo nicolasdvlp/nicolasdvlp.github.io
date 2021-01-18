@@ -89,7 +89,7 @@
 }
 
 .disclaopen {
-	font-size: 0.7rem;
+	font-size: 0.8rem;
 	text-align: center;
 	padding-top: 2rem;
 	padding-bottom: 1rem;
@@ -121,7 +121,6 @@
 
 .moncv {
 	color: rgb(232, 230, 227) !important;
-	
 }
 
 .moncv:hover {
