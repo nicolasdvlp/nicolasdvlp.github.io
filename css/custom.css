@@ -126,3 +126,7 @@
 .moncv:hover {
 	text-decoration: underline; 
 }
+
+.dontShowLabel {
+	display: none;
+}
