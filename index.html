@@ -732,41 +732,38 @@
           <div class="row">
             <div class="col-lg-10 col-xl-9 mx-auto">
 
-              <form method="POST" class="form-border form-border-light"
-                action="https://script.google.com/macros/s/AKfycbxBb-8OcozYsYxznL_Dy-C9GOi_6VEZWJQsSPPyH6wtqH-2eRaonBuN0xlQoYDO1pI/exec"
-                onsubmit="submitted=true;">
-                <!-- 
-                <form id="gform" name="gform" class="form-border form-border-light" enctype="text/plain" method="POST"
-                  action="https://script.google.com/macros/s/AKfycbxBb-8OcozYsYxznL_Dy-C9GOi_6VEZWJQsSPPyH6wtqH-2eRaonBuN0xlQoYDO1pI/exec"
-                  target="hidden_iframe"> -->
-
-
+              <form id="gform" name="gform" class="form-border form-border-light" enctype="text/plain"
+                action="
+              https://docs.google.com/forms/d/e/1FAIpQLSczhqIrDKvPSFeElsY4O17mR9bSktjPab_QSKy0vFlDPOiP5A/formResponse?usp=pp_url" target="hidden_iframe" onsubmit="submitted=true;">
                 <div class="row">
-                  <div class="col-lg-6">
+                  <div class="col-md-6">
                     <div class="form-group">
-                      <input name="Name" type="text" class="form-control" required placeholder="Nom">
-                      <label class="dontShowLabel" for="Name">Nom</label>
+                      <input name="entry.1192234709" id="entry.1192234709" type="text" class="form-control" required
+                        placeholder="Nom">
+                      <label class="dontShowLabel" for="entry.1192234709">Nom</label>
                     </div>
-                    x
                   </div>
-                  <div class="col-lg-6">
+                  <div class="col-md-6">
                     <div class="form-group">
-                      <input name="Email" type="email" class="form-control" required placeholder="Email">
-                      <label class="dontShowLabel" for="Email">Email</label>
+                      <input name="entry.1311840875" id="entry.1311840875" type="email" class="form-control" required
+                        placeholder="Email">
+                      <label class="dontShowLabel" for="entry.1311840875">Email</label>
+
                     </div>
                   </div>
                 </div>
                 <div class="form-group">
-                  <textarea name="Message" class="form-control" rows="3" required
+                  <textarea name="entry.345665933" id="entry.345665933" class="form-control" rows="3" required
                     placeholder="Votre message ..."></textarea>
-                  <label class="dontShowLabel" for="Message">Message</label>
+                  <label class="dontShowLabel" for="entry.345665933">Message</label>
                 </div>
-                <p class="text-center mt-5 mb-0">
-                  <button class="btn btn-primary d-inline-flex" type="submit">Envoyer</button>
+                <p class="text-center mt-3 mb-0">
+                  <button id="submit-btn" class="btn btn-primary shadow-none d-inline-flex"
+                    type="submit">Envoyer</button>
                 </p>
               </form>
+              <p class="text-muted text-center mt-4">Je vous réponds rapidement.</p>
               <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-
             </div>
           </div>
           <ul class="social-icons social-icons-lg social-icons-muted justify-content-center">
