@@ -1,0 +1,84 @@
+/*!
+ * Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ * Copyright 2023 Fonticons, Inc.
+ */
+:root {
+  --fa-style-family-brands: 'Font Awesome 6 Brands';
+  --fa-font-brands: normal 400 1em/1 'Font Awesome 6 Brands'; }
+
+@font-face {
+  font-family: 'Font Awesome 6 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.ttf") format("truetype"); }
+
+.fab {
+  font-weight: 400; }
+
+.fa-aws:before {
+  content: "\f375"; }
+
+.fa-css3-alt:before {
+  content: "\f38b"; }
+
+.fa-github-alt:before {
+  content: "\f113"; }
+
+.fa-google:before {
+  content: "\f1a0"; }
+
+.fa-linkedin-in:before {
+  content: "\f0e1"; }
+
+.fa-git-alt:before {
+  content: "\f841"; }
+
+.fa-windows:before {
+  content: "\f17a"; }
+
+.fa-behance:before {
+  content: "\f1b4"; }
+
+.fa-discord:before {
+  content: "\f392"; }
+
+.fa-apple:before {
+  content: "\f179"; }
+
+.fa-react:before {
+  content: "\f41b"; }
+
+.fa-facebook-f:before {
+  content: "\f39e"; }
+
+.fa-linux:before {
+  content: "\f17c"; }
+
+.fa-instagram:before {
+  content: "\f16d"; }
+
+.fa-html5:before {
+  content: "\f13b"; }
+
+.fa-trello:before {
+  content: "\f181"; }
+
+.fa-js:before {
+  content: "\f3b8"; }
+
+.fa-github:before {
+  content: "\f09b"; }
+
+.fa-twitter:before {
+  content: "\f099"; }
+
+.fa-dribbble:before {
+  content: "\f17d"; }
+
+.fa-node-js:before {
+  content: "\f3d3"; }
+
+.fa-slack:before {
+  content: "\f198"; }

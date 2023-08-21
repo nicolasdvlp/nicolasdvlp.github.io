@@ -1,0 +1,43 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Hanlding Updates
+-----------------------------------------------------------------*/
+
+.juicy {
+  color: orange;
+  height: 1.75rem;
+}
+
+#services .badge {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+#services svg {
+  vertical-align: bottom;
+  height: 1.3rem;
+  width: 1.3rem;
+}
+
+.dontShowLabel {
+  display: none;
+}
+
+.notAvailable {
+  text-decoration: line-through;
+}
+
+.typed-cursor {
+  color: #18db0e;
+}
+
+.disno {
+  letter-spacing: -3px;
+  font-weight: bolder;
+}
+
+.logon {
+  border: #191f24 0.5px solid;
+}
