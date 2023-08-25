@@ -246,9 +246,6 @@ readers do not read off random characters that represent icons */
 .fa-external-link-alt::before {
   content: "\f35d"; }
 
-.fa-envelope::before {
-  content: "\f0e0"; }
-
 .fa-keyboard::before {
   content: "\f11c"; }
 
@@ -272,6 +269,9 @@ readers do not read off random characters that represent icons */
 
 .fa-chevron-right::before {
   content: "\f054"; }
+
+.fa-display::before {
+  content: "\e163"; }
 
 .fa-desktop::before {
   content: "\f390"; }
@@ -304,9 +304,6 @@ readers do not read off random characters that represent icons */
 .fa-github-alt:before {
   content: "\f113"; }
 
-.fa-google:before {
-  content: "\f1a0"; }
-
 .fa-linkedin-in:before {
   content: "\f0e1"; }
 
@@ -333,9 +330,6 @@ readers do not read off random characters that represent icons */
 
 .fa-linux:before {
   content: "\f17c"; }
-
-.fa-instagram:before {
-  content: "\f16d"; }
 
 .fa-html5:before {
   content: "\f13b"; }
