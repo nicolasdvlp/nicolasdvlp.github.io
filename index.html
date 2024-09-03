@@ -15,14 +15,14 @@
   <!-- <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900'
     type='text/css'> -->
 
-  <link rel="preconnect"
-    href='https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap' as="style"
-    onload="this.onload=null;this.rel='stylesheet'" />
+  <!-- rel="preconnect" -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+    as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="vendor/font-awesome/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
 
   <noscript>
-    <link rel="preconnect"
-      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+    <!-- rel="preconnect" -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
       rel="stylesheet" type="text/css" />
   </noscript>
 
@@ -64,7 +64,7 @@
         class="primary-menu navbar navbar-expand-none navbar-overlay navbar-text-light bg-transparent border-bottom-0 text-5 font-weight-500">
         <div class="container-fluid">
           <!-- Logo -->
-          <a class="logo" href="#home" title="Nicolas MATEOS"> <img class='logon' src="images/logo nm.svg"
+          <a class="logo" href="#home" title="Nicolas MATEOS"> <img class="logon" src="images/logo nm.svg"
               alt="Logo Nicolas MATEOS" height="50px" width="50px" /> </a>
           <!-- Logo End -->
           <button class="navbar-toggler ml-auto" title="burger menu" type="button" data-toggle="collapse"
@@ -78,7 +78,7 @@
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#work">Side Projects</a></li>
                 <!-- <li class="nav-item"><a class="nav-link smooth-scroll" href="#process">Process</a></li> -->
                 <!-- <li class="nav-item"><a class="nav-link smooth-scroll" href="#resume">My Resume</a></li> -->
-                <!-- <li class="nav-item"><a class="nav-link smooth-scroll" href="#testimonial">On Parle De Moi</a></li> //FIXME: -->
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#testimonial">On Parle De Moi</a></li>
                 <!-- <li class="nav-item"><a class="nav-link smooth-scroll" href="#faq">Faq</a></li> -->
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact Me</a></li>
               </ul>
@@ -104,7 +104,7 @@
               <!--<div class="hero-mask opacity-6 bg-dark"></div>-->
 
               <!-- <div class="hero-bg hero-bg-scroll" style="background-image:url('images/bg/image-9.');"></div> -->
-              <div class="hero-bg hero-bg-scroll lazyload" data-bg='images/bg/image-9.webp'></div>
+              <div class="hero-bg hero-bg-scroll lazyload" data-bg="images/bg/image-9.webp"></div>
 
               <div class="hero-content d-flex flex-column fullscreen">
                 <div class="container my-auto"> </div>
@@ -135,9 +135,8 @@
                 <p class="h-8">
                   Je suis <span class="typed"></span></p>
                 <p class="lead text-white mb-3 mb-md-4">
-                  <a href="https://goo.gl/maps/AywK9VYcHWARo6MQA" aria-label="google map link" rel="noopener"
-                    target="_blank" rel="noopener noreferrer"><i class="fas fa-map-marker-alt"></i></a> <span
-                    class="moncv">Basé à
+                  <a href="https://goo.gl/maps/AywK9VYcHWARo6MQA" aria-label="google map link" target="_blank"
+                    rel="noopener noreferrer"><i class="fas fa-map-marker-alt"></i></a> <span class="moncv">Basé à
                     Marne-la-Vallée</span> <span class="disno">ºoº</span> (Île-de-France)
                   <br />
                   <a href="#" aria-label="agenda"><i class="fas fa-calendar-alt"></i></a> <span
@@ -182,72 +181,75 @@
             <h2 class="text-6 text-white font-weight-500 mb-3">Hello! Je m'appelle <span class="text-primary">Nicolas
                 Mateos.</span></h2>
             <p class="text-3 text-muted">
+              Passionné par le développement web depuis mon adolescence, j'ai suivi un parcours atypique qui m'a
+              conduit à faire carrière dans la banque avant de revenir à mes premières amours : la programmation.
+            </p>
+
+            <p class="text-3 text-muted">
               <!-- <p class="lead text-light"> -->
-              🕰️ J'ai <span id="age">37</span> ans. J'ai su que je voulais travailler dans le développement web
-              dès l'âge de 14 ans. Je codais déjà mes premiers sites en HTML4 et compilais mes premiers petits
-              programmes en langage C. Mais le destin a fait que j'ai passé un peu plus de 15 ans dans la banque et
-              l'assurance, <a class="underli" href="https://www.linkedin.com/in/nicolas-mateos-dev/" rel="noopener"
-                target="_blank">à
-                (presque) tous les
-                postes <sup><i class="fa fa-external-link-alt"></i></sup></a>.
+              🕰️ Âge et Passion : Depuis l'âge de 14 ans, je savais que je voulais travailler dans le développement
+              web. À cet âge, je codais déjà mes premiers sites en HTML4 et compilais mes premiers petits programmes en
+              C.
+              Cependant, le destin m'a orienté vers une carrière de plus de 15 ans dans la banque et l'assurance, où
+              j'ai occupé <a class="underli" href="https://www.linkedin.com/in/nicolas-mateos-dev/" rel="noopener"
+                target="_blank">presque tous les postes possibles <sup><i
+                    class="fa fa-external-link-alt"></i></sup></a>.
             </p>
             <p class="text-3 text-muted">
-              🏯 Après avoir obtenu ma ceinture noire 5<sup>e</sup> dan en formules Excel
-              <svg class="juicy" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+
+              🏯 Reconversion : Après avoir obtenu ma ceinture noire 5<sup>e</sup> dan en formules Excel <svg
+                class="juicy" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300.891 300.891"
                 style="enable-background:new 0 0 300.891 300.891;" xml:space="preserve">
                 <g>
                   <g>
                     <path
                       d="M300.776,165.655l-18.59-89.635c-1.885-12.805-10.27-24.635-21.84-30.94l-59.02-33.93
-                            c-0.065-0.065-0.13-0.065-0.195-0.065c-0.065,0-0.065-0.065-0.13-0.065l-21.84-10.53c-0.65-0.325-1.365-0.455-2.145-0.455h-54.21
-                            c-0.78,0-1.495,0.195-2.21,0.52L99.731,11.02c-0.065,0-0.065,0.065-0.13,0.065s-0.065,0.065-0.13,0.065L39.606,45.145
-                            c-10.855,6.305-18.98,17.81-21.71,30.68v0.065l-17.81,89.765c-0.26,1.43,0.065,2.925,1.04,4.03c0.91,1.105,2.34,1.755,3.77,1.755
-                            h33.365c2.34,0,4.355-1.69,4.81-3.965l5.655-29.835l6.435,49.725l-21.645,96.2c-0.325,1.365,0,2.73,0.78,3.9
-                            c0.78,1.105,2.015,1.885,3.38,2.015l97.045,11.31c0.195,0,0.39,0.065,0.585,0.065s0.39,0,0.65-0.065l86.58-11.31
-                            c1.365-0.195,2.6-0.91,3.38-2.015c0.78-1.105,1.04-2.535,0.78-3.835l-21.645-96.2l6.89-49.4l5.2,29.445
-                            c0.39,2.34,2.405,4.03,4.81,4.03h34.21c1.495,0,2.86-0.65,3.77-1.82C300.711,168.58,301.101,167.086,300.776,165.655z
-                              M124.106,9.721h31.935l16.12,7.735l-38.61,66.495l-44.46-66.69L124.106,9.721z M74.381,106.116
-                            c-0.325-2.405-2.275-4.16-4.68-4.225c-2.405-0.065-4.485,1.625-4.94,3.965l-10.595,55.9h-43.42l16.64-83.915
-                            c2.145-10.075,8.71-19.37,17.03-24.245l55.9-31.72l61.36,92.04v79.82c-14.625,0.715-29.315-0.195-43.55-2.795l-33.605-6.565
-                            L74.381,106.116z M161.741,290.326l-6.5,0.78l-91.065-10.595l19.435-86.385l31.785,6.24l-26.91,31.005
-                            c-1.755,2.015-1.56,5.135,0.52,6.89c2.015,1.755,5.135,1.56,6.89-0.52l23.01-26.52v41.145c0,2.665,2.21,4.875,4.875,4.875
-                            c2.665,0,4.875-2.21,4.875-4.875v-49.985c7.8,0.91,15.73,1.365,23.595,1.365c3.185,0,6.305-0.065,9.49-0.195V290.326z
-                              M235.906,280.641l-64.415,8.385v-86.19c9.62-0.91,19.175-2.47,28.6-4.745l16.445-3.575L235.906,280.641z M245.916,161.755
-                            l-9.815-55.835c-0.39-2.34-2.47-4.03-4.81-4.03h-0.065c-2.405,0.065-4.42,1.82-4.745,4.225l-10.985,78.65l-17.55,3.835h-0.13
-                            c-8.645,2.08-17.485,3.575-26.325,4.42v-80.6c0-0.975-0.26-1.885-0.845-2.73l-11.115-16.705l41.21-70.98l54.86,31.525
-                            c0.065,0,0.065,0.065,0.13,0.065c9.035,4.875,15.47,14.04,16.9,23.92c0,0.13,0,0.195,0.065,0.325l17.42,83.915H245.916z"
+                          c-0.065-0.065-0.13-0.065-0.195-0.065c-0.065,0-0.065-0.065-0.13-0.065l-21.84-10.53c-0.65-0.325-1.365-0.455-2.145-0.455h-54.21
+                          c-0.78,0-1.495,0.195-2.21,0.52L99.731,11.02c-0.065,0-0.065,0.065-0.13,0.065s-0.065,0.065-0.13,0.065L39.606,45.145
+                          c-10.855,6.305-18.98,17.81-21.71,30.68v0.065l-17.81,89.765c-0.26,1.43,0.065,2.925,1.04,4.03c0.91,1.105,2.34,1.755,3.77,1.755
+                          h33.365c2.34,0,4.355-1.69,4.81-3.965l5.655-29.835l6.435,49.725l-21.645,96.2c-0.325,1.365,0,2.73,0.78,3.9
+                          c0.78,1.105,2.015,1.885,3.38,2.015l97.045,11.31c0.195,0,0.39,0.065,0.585,0.065s0.39,0,0.65-0.065l86.58-11.31
+                          c1.365-0.195,2.6-0.91,3.38-2.015c0.78-1.105,1.04-2.535,0.78-3.835l-21.645-96.2l6.89-49.4l5.2,29.445
+                          c0.39,2.34,2.405,4.03,4.81,4.03h34.21c1.495,0,2.86-0.65,3.77-1.82C300.711,168.58,301.101,167.086,300.776,165.655z
+                            M124.106,9.721h31.935l16.12,7.735l-38.61,66.495l-44.46-66.69L124.106,9.721z M74.381,106.116
+                          c-0.325-2.405-2.275-4.16-4.68-4.225c-2.405-0.065-4.485,1.625-4.94,3.965l-10.595,55.9h-43.42l16.64-83.915
+                          c2.145-10.075,8.71-19.37,17.03-24.245l55.9-31.72l61.36,92.04v79.82c-14.625,0.715-29.315-0.195-43.55-2.795l-33.605-6.565
+                          L74.381,106.116z M161.741,290.326l-6.5,0.78l-91.065-10.595l19.435-86.385l31.785,6.24l-26.91,31.005
+                          c-1.755,2.015-1.56,5.135,0.52,6.89c2.015,1.755,5.135,1.56,6.89-0.52l23.01-26.52v41.145c0,2.665,2.21,4.875,4.875,4.875
+                          c2.665,0,4.875-2.21,4.875-4.875v-49.985c7.8,0.91,15.73,1.365,23.595,1.365c3.185,0,6.305-0.065,9.49-0.195V290.326z
+                            M235.906,280.641l-64.415,8.385v-86.19c9.62-0.91,19.175-2.47,28.6-4.745l16.445-3.575L235.906,280.641z M245.916,161.755
+                          l-9.815-55.835c-0.39-2.34-2.47-4.03-4.81-4.03h-0.065c-2.405,0.065-4.42,1.82-4.745,4.225l-10.985,78.65l-17.55,3.835h-0.13
+                          c-8.645,2.08-17.485,3.575-26.325,4.42v-80.6c0-0.975-0.26-1.885-0.845-2.73l-11.115-16.705l41.21-70.98l54.86,31.525
+                          c0.065,0,0.065,0.065,0.13,0.065c9.035,4.875,15.47,14.04,16.9,23.92c0,0.13,0,0.195,0.065,0.325l17.42,83.915H245.916z"
                       fill="#FCA52A" />
                   </g>
                 </g>
-              </svg>, je récupère la voie du web et de la programmation pour une reconversion professionnelle. Il
-              n'est jamais trop tard.
+              </svg>, j'ai décidé de renouer avec ma passion pour le web et la programmation. Cette reconversion prouve
+              qu'il n'est jamais trop tard pour suivre sa véritable vocation.
             </p>
             <p class="text-3 text-muted">
-              🏅 Les soft skills que j’ai acquis dans la banque sont très similaires à celles recherchées dans le
-              développement :
-              l'esprit d'équipe, l'autonomie, la flexibilité, la prise d'initiative ou de décision, la résolution de
-              problèmes...
+              🏅 Soft Skills : Les compétences comportementales que j'ai développées dans le secteur bancaire sont très
+              recherchées dans le développement web : esprit d'équipe, autonomie, flexibilité, prise d'initiative, prise
+              de décision, et résolution de problèmes.
             </p>
             <p class="text-3 text-muted">
-              🚀 En 2020, j'intègre <a class="underli"
+              🚀 Formation et Spécialisation : En 2020, j'ai intégré <a class="underli"
                 href="https://oclock.io/formations/developpeur-web-fullstack-javascript/" target="_blank"
-                rel="noopener noreferrer">o'Clock <sup><i class="fa fa-external-link-alt"></i></sup></a> - École
-              Labellisée Grande Ecole du Numérique,
-              pour me former. En fin de cursus, je choisis la spécialisation <a class="underli"
+                rel="noopener noreferrer">O'Clock <sup><i class="fa fa-external-link-alt"></i></sup></a>, une école
+              labellisée Grande École du Numérique, pour me former. J'ai choisi de me spécialiser en <a class="underli"
                 href="https://oclock.io/formations/developpeur-data-api/" target="_blank" rel="noopener noreferrer">API
-                et Data <sup><i class="fa fa-external-link-alt"></i></sup></a>.</p>
-
-            <p class="text-3 text-muted">
-              🎯 En 2021, je rejoins l'équipe de <a class="underli" href="https://valessentia.com/valessentia-solution/"
-                target="_blank" rel="noopener noreferrer">Valessentia Solution <sup><i
-                    class="fa fa-external-link-alt"></i></sup></a> en tant que <strong><u>Responsable
-                  Technique IT
-                  / Développeur Full Stack JavaScript</u></strong> en full remote 🏠👨‍💻.
+                et Data <sup><i class="fa fa-external-link-alt"></i></sup></a> à la
+              fin de mon cursus.
             </p>
-
-
-
+            <p class="text-3 text-muted">
+              🎯 Expérience Professionnelle : En 2021, j'ai rejoint l'équipe de <a class="underli"
+                href="https://valessentia.com/valessentia-solution/" target="_blank"
+                rel="noopener noreferrer">Valessentia Solution <sup><i class="fa fa-external-link-alt"></i></sup></a> en
+              tant que <strong><u>Responsable Technique IT / Développeur Full Stack JavaScript</u></strong>, en full
+              remote 🏠👨‍💻. Depuis, je mets à profit mes compétences techniques et mon expérience pour contribuer à
+              des projets innovants.
+            </p>
 
             <div class="d-inline-flex pt-2">
               <a href="#work" class="btn btn-primary text-2 smooth-scroll">Mes travaux</a>
@@ -524,10 +526,10 @@
                 <h3 class="text-white">SEO Marketing</h3>
                 <p class="text-muted mb-0">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea
                   essent possim iriure.</p>
-              </div>
-            </div> -->
+                </div> -->
             </div>
           </div>
+        </div>
       </section>
       <!-- Services end -->
 
@@ -730,7 +732,7 @@
         <div class="hero-mask opacity-8 bg-dark"></div>
 
         <!-- <div class="hero-bg" style="background-image:url('images/bg/image-2.webp');"></div> -->
-        <div class="hero-bg lazyload" data-bg='images/bg/image-2.webp'></div>
+        <div class="hero-bg lazyload" data-bg="images/bg/image-2.webp"></div>
 
         <div class="hero-content">
           <div class="container">
@@ -917,7 +919,7 @@
 
       <!-- Testimonial FIXME:
     ============================================= -->
-      <!-- <section id="testimonial" class="section bg-dark-1">
+      <section id="testimonial" class="section bg-dark-1">
 
 
         <div class="d-flex text-center mb-5">
@@ -928,14 +930,26 @@
           </p>
         </div>
 
-        
+
         <div class="container">
           <div class="row">
             <div class="col-lg-9 mx-auto">
               <div class="owl-carousel owl-theme owl-light" data-autoplay="true" data-loop="true" data-nav="true"
                 data-margin="30" data-slideby="1" data-stagepadding="20" data-items-xs="1" data-items-sm="1"
                 data-items-md="1" data-items-lg="1">
-                <div class="item testimonial bg-dark border-0 rounded text-center p-5"> <span
+
+                <div class="item testimonial bg-dark border-0 rounded text-center p-5">
+                  <a href="https://www.frandroid.com/?p=1767223&preview=1&_ppp=55cb835b58" target="_blank">
+                    <span class="text-9 text-light opacity-2"><i class="fa fa-quote-left"></i></span>
+                    <p class="text-3 text-white">Interview sur ma reconversion.</p>
+                    <img class="img-fluid d-inline-block w-auto shadow-sm border border-dark"
+                      src="images/testimonial/Frandroid.svg" alt=""> <strong
+                      class="d-block text-white font-weight-500">Frandroid</strong> <span class="text-muted">La
+                      référence tech pour s’informer, comparer et bien acheter.</span>
+                  </a>
+                </div>
+
+                <!-- <div class="item testimonial bg-dark border-0 rounded text-center p-5"> <span
                     class="text-9 text-light opacity-2"><i class="fa fa-quote-left"></i></span>
                   <p class="text-3 text-white">Easy to use, reasonably priced simply dummy text of the printing and
                     typesetting industry. Quidam lisque persius interesset his et, in quot quidam possim iriure. simply
@@ -973,15 +987,15 @@
                     src="images/testimonial/client-sm-4.jpg" alt=""> <strong
                     class="d-block text-white font-weight-500">Chris Tom</strong> <span class="text-muted">Company CEO
                     from UK</span>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
       <!-- Testimonial end -->
 
-      <!-- FAQ
+      <!--  FAQ 
     ============================================= -->
       <!-- <section id="faq" class="section bg-dark"> -->
 
